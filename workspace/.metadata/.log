@@ -366,3 +366,411 @@ Caused by: java.net.UnknownHostException: www.xmind.net
 
 !ENTRY org.xmind.ui.mindmap 4 4 2021-10-21 00:43:21.167
 !MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+!SESSION 2021-10-21 09:29:36.962 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage C:\Users\duxuewei\Documents\MyDoc\my-notes\MySQL.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage C:\Users\duxuewei\Documents\MyDoc\my-notes\MySQL.xmind
+
+!ENTRY org.xmind.cathy 1 0 2021-10-21 09:29:43.180
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2021-10-21 09:29:43.180
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2021-10-21 09:29:45.732
+!MESSAGE Path queued to be opened: C:\Users\duxuewei\Documents\MyDoc\my-notes\MySQL.xmind
+
+!ENTRY org.xmind.cathy 1 0 2021-10-21 09:29:45.738
+!MESSAGE Path queued to be opened: C:\Users\duxuewei\Documents\MyDoc\my-notes\深入理解Java虚拟机.xmind
+
+!ENTRY org.xmind.cathy 1 0 2021-10-21 09:29:48.524
+!MESSAGE Ready to open files: [C:\Users\duxuewei\Documents\MyDoc\my-notes\MySQL.xmind, C:\Users\duxuewei\Documents\MyDoc\my-notes\深入理解Java虚拟机.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2021-10-21 09:29:48.541
+!MESSAGE Malformed URI: C:\Users\duxuewei\Documents\MyDoc\my-notes\MySQL.xmind
+
+!ENTRY org.xmind.core.command 1 0 2021-10-21 09:29:48.591
+!MESSAGE Malformed URI: C:\Users\duxuewei\Documents\MyDoc\my-notes\深入理解Java虚拟机.xmind
+
+!ENTRY net.xmind.workbench 4 0 2021-10-21 09:29:51.220
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+java.net.UnknownHostException: www.xmind.net
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: www.xmind.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+!SESSION 2021-10-21 09:32:54.591 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage C:\Users\duxuewei\Documents\MyDoc\my-notes\MySQL.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage C:\Users\duxuewei\Documents\MyDoc\my-notes\MySQL.xmind
+
+!ENTRY org.xmind.cathy 1 0 2021-10-21 09:32:57.521
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2021-10-21 09:32:57.522
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2021-10-21 09:32:59.385
+!MESSAGE Path queued to be opened: C:\Users\duxuewei\Documents\MyDoc\my-notes\MySQL.xmind
+
+!ENTRY org.xmind.cathy 1 0 2021-10-21 09:33:01.523
+!MESSAGE Ready to open files: [C:\Users\duxuewei\Documents\MyDoc\my-notes\MySQL.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2021-10-21 09:33:01.536
+!MESSAGE Malformed URI: C:\Users\duxuewei\Documents\MyDoc\my-notes\MySQL.xmind
+
+!ENTRY net.xmind.workbench 4 0 2021-10-21 09:33:07.183
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+java.net.UnknownHostException: www.xmind.net
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: www.xmind.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+
+!ENTRY org.xmind.ui.mindmap 4 4 2021-10-21 09:34:30.426
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2021-10-21 09:34:57.687
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2021-10-21 09:37:11.196
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2021-10-21 09:37:23.233
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2021-10-21 09:37:54.352
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2021-10-21 09:38:06.068
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2021-10-21 09:38:18.308
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2021-10-21 09:38:40.617
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2021-10-21 09:39:03.608
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+!SESSION 2021-10-22 08:43:29.960 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage C:\Users\duxuewei\Documents\MyDoc\my-notes\MySQL.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage C:\Users\duxuewei\Documents\MyDoc\my-notes\MySQL.xmind
+
+!ENTRY org.xmind.cathy 1 0 2021-10-22 08:43:32.151
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2021-10-22 08:43:32.152
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2021-10-22 08:43:33.569
+!MESSAGE Path queued to be opened: C:\Users\duxuewei\Documents\MyDoc\my-notes\MySQL.xmind
+
+!ENTRY org.xmind.cathy 1 0 2021-10-22 08:43:35.110
+!MESSAGE Ready to open files: [C:\Users\duxuewei\Documents\MyDoc\my-notes\MySQL.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2021-10-22 08:43:35.122
+!MESSAGE Malformed URI: C:\Users\duxuewei\Documents\MyDoc\my-notes\MySQL.xmind
+
+!ENTRY net.xmind.workbench 4 0 2021-10-22 08:43:38.112
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+java.net.UnknownHostException: www.xmind.net
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: www.xmind.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+
+!ENTRY org.xmind.ui.mindmap 4 4 2021-10-22 09:25:07.457
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+!SESSION 2021-10-27 11:32:48.204 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage C:\Users\duxuewei\Documents\MyDoc\my-notes\Kafka.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage C:\Users\duxuewei\Documents\MyDoc\my-notes\Kafka.xmind
+
+!ENTRY org.xmind.cathy 1 0 2021-10-27 11:32:50.372
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2021-10-27 11:32:50.373
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2021-10-27 11:32:51.851
+!MESSAGE Path queued to be opened: C:\Users\duxuewei\Documents\MyDoc\my-notes\Kafka.xmind
+
+!ENTRY org.xmind.cathy 1 0 2021-10-27 11:32:53.590
+!MESSAGE Ready to open files: [C:\Users\duxuewei\Documents\MyDoc\my-notes\Kafka.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2021-10-27 11:32:53.606
+!MESSAGE Malformed URI: C:\Users\duxuewei\Documents\MyDoc\my-notes\Kafka.xmind
+
+!ENTRY net.xmind.workbench 4 0 2021-10-27 11:32:57.732
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+java.net.UnknownHostException: www.xmind.net
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: www.xmind.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+
+!ENTRY org.xmind.ui.mindmap 4 4 2021-10-27 11:46:47.446
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2021-10-27 11:51:01.733
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2021-10-27 13:36:41.592
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.gallery 2 0 2021-10-27 20:50:14.608
+!MESSAGE 下载失败: https://www.xmind.cn/xmind/zh/CN/clipart.xml?buildId=R3.7.8.201807240049&distributionId=cathy_win32 -> C:\Users\duxuewei\Documents\MyDoc\my-notes\workspace\gallery\.downloaded\clipart_zh_CN.xml.temp
+!STACK 0
+java.net.UnknownHostException: www.xmind.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect0(HttpURLConnection.java:2719)
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect(HttpURLConnection.java:2641)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1824)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.ui.io.DownloadJob.runSafely(DownloadJob.java:186)
+	at org.xmind.ui.io.DownloadJob.run(DownloadJob.java:136)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.xmind.ui.gallery 2 0 2021-10-27 20:50:14.736
+!MESSAGE 下载失败: https://www.xmind.cn/xmind/zh/CN/clipart.xml?buildId=R3.7.8.201807240049&distributionId=cathy_win32 -> C:\Users\duxuewei\Documents\MyDoc\my-notes\workspace\gallery\.downloaded\clipart_zh_CN.xml.temp
+!STACK 0
+java.net.UnknownHostException: www.xmind.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect0(HttpURLConnection.java:2719)
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect(HttpURLConnection.java:2641)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1824)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.ui.io.DownloadJob.runSafely(DownloadJob.java:186)
+	at org.xmind.ui.io.DownloadJob.run(DownloadJob.java:136)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.xmind.ui.gallery 2 0 2021-10-27 20:50:14.846
+!MESSAGE 下载失败: https://www.xmind.cn/xmind/zh/CN/clipart.xml?buildId=R3.7.8.201807240049&distributionId=cathy_win32 -> C:\Users\duxuewei\Documents\MyDoc\my-notes\workspace\gallery\.downloaded\clipart_zh_CN.xml.temp
+!STACK 0
+java.net.UnknownHostException: www.xmind.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect0(HttpURLConnection.java:2719)
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect(HttpURLConnection.java:2641)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1824)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.ui.io.DownloadJob.runSafely(DownloadJob.java:186)
+	at org.xmind.ui.io.DownloadJob.run(DownloadJob.java:136)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.xmind.ui.mindmap 4 4 2021-10-27 20:53:04.372
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2021-10-27 20:53:06.685
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2021-10-27 20:58:51.514
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2021-10-27 21:00:36.218
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
